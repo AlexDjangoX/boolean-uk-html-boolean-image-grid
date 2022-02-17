@@ -1,6 +1,11 @@
 @import "grid";
 @import "reset";
 @import "variables";
+// SINGLE CARD IN CARD HTML
+.card-html {
+    height: calc(100vh - 8rem);
+}
+
 // CARDS ARE IN AN ul
 ul {
     list-style: none;

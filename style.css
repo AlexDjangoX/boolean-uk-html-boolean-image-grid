@@ -44,6 +44,10 @@ header {
   border: 0;
 }
 
+.card-html {
+  height: calc(100vh - 8rem);
+}
+
 ul {
   list-style: none;
 }
