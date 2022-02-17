@@ -1,9 +1,13 @@
 @import "grid";
 @import "reset";
 @import "variables";
+@import "abstracts/mixins";
 // SINGLE CARD IN CARD HTML
 .card-html {
     height: calc(100vh - 8rem);
+    &__align-absolute-center {
+        @include absoluteCentre;
+    }
 }
 
 // CARDS ARE IN AN ul
@@ -21,6 +25,10 @@ ul {
 
 //HEADER AND FOOTER STYLES
 .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
     background-color: $color-logo;
     &__logo img {
         height: 4rem;
