@@ -22,9 +22,10 @@ ul {
     }
 }
 
-.footer {
-    background-color: $color-logo;
-    height: 4rem;
+// HERO SECTION
+.hero,
+img {
+    width: 100%;
 }
 
 // INNER CARD STYLES
@@ -51,4 +52,10 @@ ul {
         line-height: 1.2rem;
         padding: 0.4rem 0.5rem;
     }
+}
+
+// FOOTER
+.footer {
+    background-color: $color-logo;
+    height: 4rem;
 }

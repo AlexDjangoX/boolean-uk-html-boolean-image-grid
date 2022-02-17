@@ -1,3 +1,10 @@
+.one-column-auto-fit {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+}
+
 .center-wrapper {
   padding: 1rem 8rem;
   margin: 0 auto;
@@ -55,9 +62,9 @@ ul {
   height: 4rem;
 }
 
-.footer {
-  background-color: #232852;
-  height: 4rem;
+.hero,
+img {
+  width: 100%;
 }
 
 .card {
@@ -90,5 +97,10 @@ ul {
 .card p {
   line-height: 1.2rem;
   padding: 0.4rem 0.5rem;
+}
+
+.footer {
+  background-color: #232852;
+  height: 4rem;
 }
 /*# sourceMappingURL=style.css.map */
