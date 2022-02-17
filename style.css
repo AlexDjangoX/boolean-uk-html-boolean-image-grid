@@ -107,6 +107,7 @@ img {
 
 .card__laptop-image img {
   width: 100%;
+  border-radius: 12px 12px 0px 0px;
 }
 
 .card__logo-image img {
@@ -125,6 +126,7 @@ img {
 
 .card__social-media-icons img {
   width: 1.4rem;
+  margin: 0.2rem;
 }
 
 .card__social-media-icons,
@@ -134,7 +136,7 @@ img {
 }
 
 .card__social-media-icons a {
-  padding-right: 1.8rem;
+  padding-right: 1.4rem;
   color: black;
 }
 

@@ -46,6 +46,7 @@ img {
     position: relative;
     &__laptop-image img {
         width: 100%;
+        border-radius: 12px 12px 0px 0px;
     }
     &__logo-image img {
         position: absolute;
@@ -59,6 +60,7 @@ img {
     }
     &__social-media-icons img {
         width: 1.4rem;
+        margin: 0.2rem;
     }
     &__social-media-icons,
     p {
@@ -66,7 +68,7 @@ img {
         padding: 0.4rem 0.5rem;
     }
     &__social-media-icons a {
-        padding-right: 1.8rem;
+        padding-right: 1.4rem;
         color: black;
     }
     &__social-media-icons a:hover {
