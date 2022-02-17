@@ -3,8 +3,18 @@
     margin: 0 auto;
 }
 
+.two-column-expand-two {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
 .auto-fit-column {
     display: grid;
     grid-template-columns: repeat(auto-fit, 12rem);
     grid-gap: 2.5rem;
+}
+
+.one-column-two-rows {
+    display: grid;
+    grid-template-rows: auto auto;
 }
