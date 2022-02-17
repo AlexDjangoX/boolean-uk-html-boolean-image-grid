@@ -1,0 +1,12 @@
+@import "grid";
+ul {
+    list-style: none;
+}
+
+.card {
+    height: 16rem;
+    width: 12rem;
+    border: 3px solid black;
+    border-radius: 12px;
+    background-color: rgb(84, 179, 84);
+}

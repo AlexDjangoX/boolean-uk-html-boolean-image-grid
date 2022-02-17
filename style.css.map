@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,eAAe,CAAC;EACZ,OAAO,EAAE,SAAS;EAClB,MAAM,EAAE,MAAM;CACjB;;AAED,AAAA,gBAAgB,CAAC;EACb,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,uBAAuB;EAC9C,QAAQ,EAAE,MAAM;CACnB;;ADRD,AAAA,EAAE,CAAC;EACC,UAAU,EAAE,IAAI;CACnB;;AAED,AAAA,KAAK,CAAC;EACF,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,eAAe;EACvB,aAAa,EAAE,IAAI;EACnB,gBAAgB,EAAE,OAAgB;CACrC",
+    "sources": [
+        "style.scss",
+        "_grid.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
